@@ -1,0 +1,28 @@
+h1 {font-weight: bolder;}
+
+.title {color: powderblue;}
+
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.bilder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+:hover{
+     color: rgb(77, 15, 135);
+     text-shadow: 1px 1px 5px rgb(236, 195, 204);
+}
+.navigation{
+    text-decoration: none;
+}
+    
