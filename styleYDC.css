@@ -1,28 +1,119 @@
-h1 {font-weight: bolder;}
+       /*  new CSS */
 
-.title {color: powderblue;}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(img/cyberpunk\ city.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+  
+.intro{
+    background-color: rgba(48, 0, 48, 0.422);
+}
 
-
-
-nav{
-    position: fixed;
+.box{
+    padding: 40px 30px;
     width: 100%;
+    position: sticky;
+  }
+
+
+.header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+a{
+    color: #f8f6ff;
+    text-shadow:0 0 8px rgb(165, 92, 243);
+}
+
+.quote{
+    
+   padding-left: 100px;
+    text-align: justify;
+    width: 300px;
+    font-size: 10em;
+}
+
+.links{
+    font-size: 4em;
+    padding-left: 55%;
+    margin-bottom: 300px;
+}
+
+.links2{
+    font-size: 3em;
+    padding-left: 35%;
+    margin-bottom: 140px;
+
+}
+
+h1, h2{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anderson Grotesk', sans-serif;
+    color: #ffecf7;
+}
+
+.starter-pic{
+   margin-left: 50px;
+   margin-top: 150px;
+   margin-bottom: 50px;
+}
+
+.text{
+    margin-left: 40px;
+    color: #f9f2f6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+footer{
+    padding: 20px;
+    width: 100%;
+    font-size: 18px;
+    z-index: 19;
     overflow: hidden;
+    background-color: black;
+    margin-top: 70px;
+    bottom: 0;
+    height: 50px;
     
 }
 
-.bilder{
+.footer-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between ;
+    color: #f9f2f6;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
 
+.glow{
+    font-size: 30px;
+    text-shadow:0 0 30px rgb(255, 98, 224);
+}
+
+.pictures{
+    margin-left: 15vw;
+    margin-top: 150px;
+    
+    
+}
+
+.movies{
+    padding-left: 15vw;
+    text-align: justify;
+    width: 700px;
+    font-size: 4em;
 }
 
 :hover{
-     color: rgb(77, 15, 135);
-     text-shadow: 1px 1px 5px rgb(236, 195, 204);
+    text-shadow: 1px 1px 5px rgb(236, 195, 204);
 }
-.navigation{
-    text-decoration: none;
-}
-    
