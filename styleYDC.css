@@ -14,6 +14,7 @@ body{
   
 .intro{
     background-color: rgba(48, 0, 48, 0.422);
+    overflow: hidden
 }
 
 .box{
@@ -114,6 +115,6 @@ footer{
     font-size: 4em;
 }
 
-:hover{
+.quote:hover{
     text-shadow: 1px 1px 5px rgb(236, 195, 204);
 }
