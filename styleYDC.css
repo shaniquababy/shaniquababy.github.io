@@ -9,11 +9,14 @@ body{
     background: linear-gradient(hsl(50,80,95) 35%, hsl(300,40,80) 45%, hsl(230,30,80), hsl white 100%);
     overflow-x: hidden;
     width: 100%;
-    
-  
-  }
+    }
   
 
+.ersteSeite{
+    display: flex;
+    align-items: center;
+
+}
 .box{
     padding: 40px 30px;
     width: 100%;
