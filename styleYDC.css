@@ -68,8 +68,9 @@ h1, h2{
 
 .text{
     margin-left: 40px;
-    color: #f9f2f6;
+    color: #1a0611;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 20vp;
 }
 
 footer{
@@ -82,6 +83,7 @@ footer{
     margin-top: 70px;
     bottom: 0;
     height: 50px;
+    position: fixed;
     
 }
 
