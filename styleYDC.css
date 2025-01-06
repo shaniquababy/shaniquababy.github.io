@@ -3,12 +3,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--bg-color);
-    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-size: cover;
     background-attachment: fixed;
-    background: linear-gradient( hsl(50,80,95) 35%, hsl(300,40,80) 45%, hsl(230,30,80), hsl white 100%)
+    background: linear-gradient(hsl(50,80,95) 35%, hsl(300,40,80) 45%, hsl(230,30,80), hsl white 100%)
   
   }
   
@@ -104,16 +102,8 @@ footer{
 .pictures{
     margin-left: 15vw;
     margin-top: 150px;
-    
-    
 }
-
-.movies{
-    padding-left: 15vw;
-    text-align: justify;
-    width: 700px;
-    font-size: 4em;
-}
+    
 
 .quote:hover{
     text-shadow: 1px 1px 5px rgb(236, 195, 204);
