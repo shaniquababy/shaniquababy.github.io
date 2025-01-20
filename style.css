@@ -87,8 +87,9 @@ h1{
 .goback{
   display: flex;
   justify-content: left;
-  padding-left: 3%;
-  font-size: 1.3em;
+  padding-left: 5%;
+  padding-top: 2%;
+  font-size: 1.1em;
 }
 
 .textcontainer{
